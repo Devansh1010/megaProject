@@ -29,6 +29,7 @@ export class Service {
                     userId
                 });
         } catch (error) {
+            console.log("Create Post", error);
             throw error;
         }
     }
